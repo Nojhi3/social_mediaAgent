@@ -1,0 +1,8 @@
+gradio
+langchain==0.2.0
+langchain-google-genai==1.0.10
+langchain-community==0.2.0
+langchain-core==0.2.33
+chromadb==0.4.24
+sentence-transformers
+google-generativeai
