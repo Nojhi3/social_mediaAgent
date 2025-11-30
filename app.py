@@ -8,7 +8,7 @@ from retriever import ContentRetrieverTool
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
-    google_api_key=os.getenv("GOOGLE_API_KEY", "AIzaSyDnIERqObCqx0nG9jGquUvskoN5A2Xs98A"),
+    google_api_key=os.getenv("GOOGLE_API_KEY", "put_api_key_here"),
     temperature=0.7
 )
 
@@ -64,3 +64,4 @@ demo = gr.ChatInterface(
 
 if __name__ == "__main__":
     demo.launch()
+
